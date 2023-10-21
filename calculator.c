@@ -43,7 +43,7 @@ int main(int argc, char **argv) {
   } else if(choice == 5) {
     result=(a<b)? a:b;
   } else if(choice == 6) {
-    //TODO: handle this case (log_a(b))
+    result=log(b)/log(a);
   } else {
     printf("Please input a valid operator next time");
   }
