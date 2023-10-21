@@ -37,7 +37,7 @@ int main(int argc, char **argv) {
     result = a - b;
     printf("%f", result);
   } else if(choice == 3) {
-    //TODO: handle this case (multiplication)
+     printf("%f",a*b);
   } else if(choice == 4) {
     //TODO: handle this case (division)
   } else if(choice == 5) {
