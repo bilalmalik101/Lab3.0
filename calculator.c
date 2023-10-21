@@ -39,7 +39,7 @@ int main(int argc, char **argv) {
   } else if(choice == 3) {
      printf("%f",a*b);
   } else if(choice == 4) {
-    //TODO: handle this case (division)
+    printf("%f",a/b);
   } else if(choice == 5) {
     //TODO: handle this case (minimum)
   } else if(choice == 6) {
